@@ -16,7 +16,7 @@ El proyecto Motosierra3D está desarrollado en C++ utilizando OpenGL y presenta 
 
 **Model.h:** se encarga de importar y procesar modelos 3D en formato glTF, organizando sus componentes para poder representarlos en la escena.
 
-**Mesh.h:** administra las mallas que componen los modelos tridimensionales, incluyendo sus vértices, índices, texturas y operaciones de dibujo.}
+**Mesh.h:** administra las mallas que componen los modelos tridimensionales, incluyendo sus vértices, índices, texturas y operaciones de dibujo.
 
 **shaderClass.h:** administra la creación, compilación y utilización de los programas de shaders de OpenGL.
 
