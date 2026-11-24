@@ -1,8 +1,10 @@
 # Motosierra3D
 
-Nombre del proyecto: Motosierra3D
-Integrante: Miguel Angel Jaimes Bello
-Código estudiantil:6014335
+**Nombre del proyecto:** Motosierra3D
+
+**Integrante:** Miguel Angel Jaimes Bello
+
+**Código estudiantil:** 6014335
 
 # Arquitectura del software
 El proyecto Motosierra3D está desarrollado en C++ utilizando OpenGL y presenta una arquitectura modular, en la que cada archivo cumple una función específica para facilitar la organización, el mantenimiento y el funcionamiento del programa.
@@ -13,12 +15,19 @@ El proyecto Motosierra3D está desarrollado en C++ utilizando OpenGL y presenta 
 **Camera.h:** controla la cámara virtual mediante su posición y orientación. Utiliza matrices de vista y proyección para permitir visualizar la escena tridimensional.
 
 **Model.h:** se encarga de importar y procesar modelos 3D en formato glTF, organizando sus componentes para poder representarlos en la escena.
-**Mesh.h:** administra las mallas que componen los modelos tridimensionales, incluyendo sus vértices, índices, texturas y operaciones de dibujo.
+
+**Mesh.h:** administra las mallas que componen los modelos tridimensionales, incluyendo sus vértices, índices, texturas y operaciones de dibujo.}
+
 **shaderClass.h:** administra la creación, compilación y utilización de los programas de shaders de OpenGL.
+
 **default.vert:** procesa la información de los vértices y aplica las transformaciones necesarias para representar el modelo en pantalla.
+
 **default.frag:** calcula el color final de los fragmentos del modelo e implementa la iluminación basada en el modelo Phong.
+
 **shadow.vert y shadow.frag:** participan en el proceso de generación de sombras mediante la técnica Shadow Mapping.
+
 **CMakeLists.txt:** contiene la configuración necesaria para construir y compilar el proyecto.
+
 **Resources:** almacena los recursos externos utilizados por el programa, como modelos 3D, archivos glTF y texturas.
 
 # Flujo de funcionamiento
